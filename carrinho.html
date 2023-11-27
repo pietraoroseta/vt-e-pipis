@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="contatos.css">
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <img class="logo" src="fundo.png">
+
+            <h1>Fechar pedido</h1>
+        </center>
+
+    </header>
+    <main>
+        <section class="contato">
+            <h2>Informações para Contato</h2>
+
+        </section>
+
+        <section class="formulario">
+
+            <form action="processar_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="Endereço">Endereço</label>
+                <input type="text" id="Endereço" name="Endereço" required>
+                <label for="Telefone">Telefone:</label>
+                <input type="text" id="Telefone" name="Telefone" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="nome">Forma de pagamento:</label>
+                <button>Cartão de crédito/debito</button>
+                <button>Pix</button>
+
+                <input type="text" id="nome" name="nome" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit"><a href="agradecimento.html">Enviar Mensagem</button>
+
+                <button type="submit"><a href="tenis.html">Voltar</a></button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Contatos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
